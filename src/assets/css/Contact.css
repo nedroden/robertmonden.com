@@ -1,0 +1,17 @@
+#contact {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.info-left {
+    font-weight: bold;
+    float: left;
+    width: 35%;
+}
+
+.info-right {
+    color: #777;
+    float: right;
+    width: 65%;
+}

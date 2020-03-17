@@ -23,34 +23,12 @@ class Menu extends Component<{}, State> {
     public componentDidMount(): void {
         this.setState({
             items: [
-                {
-                    label: 'Home',
-                    href: '/'
-                },
-                {
-                    label: 'Projects',
-                    href: '/portfolio'
-                },
-                {
-                    label: 'Education',
-                    href: '/education'
-                },
-                {
-                    label: 'Skills',
-                    href: '/skills'
-                },
-                {
-                    label: 'Biography',
-                    href: '/bio'
-                },
-                {
-                    label: 'Testimonials',
-                    href: '/testimonials'
-                },
-                {
-                    label: 'Contact',
-                    href: '/contact'
-                },
+                { label: 'Home', href: '/' },
+                { label: 'Projects', href: '/portfolio' },
+                { label: 'Education', href: '/education' },
+                { label: 'Skills', href: '/skills' },
+                { label: 'Biography', href: '/bio' },
+                { label: 'Contact', href: '/contact' },
                 {},
                 {
                     label: 'LinkedIn',
@@ -64,7 +42,7 @@ class Menu extends Component<{}, State> {
                 },
                 {
                     label: 'Download resume',
-                    href: 'https://robertmonden.com/resume.pdf',
+                    href: 'https://robertmonden.com/files/resume.pdf',
                     external: true
                 }
             ]

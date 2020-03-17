@@ -1,0 +1,15 @@
+.description {
+    font-size: 105%;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+section {
+    margin: 20px 10px 20px 10px;
+}
+
+ul.curriculum strong {
+    margin-right: 10px;
+    font-size: 105%;
+    color: #444;
+}
