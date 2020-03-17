@@ -1,6 +1,6 @@
 import React, { Component, ReactNode } from 'react';
 
-import photo from '../../assets/images/rug.jpg';
+import photo from '../../assets/images/biography.jpg';
 
 class Biography extends Component {
     public render(): ReactNode {
@@ -8,7 +8,7 @@ class Biography extends Component {
             <div>
                 <h1>Biography</h1>
                 <div className="float-left col-2">
-                    <img src={photo} alt="Personal photo" className="portrait" />
+                    <img src={photo} alt="August 2019, Kazan, Russia." className="portrait" />
                 </div>
                 <div className="float-left col-10">
                     <p>
@@ -42,8 +42,6 @@ class Biography extends Component {
                     </p>
                 </div>
                 <br className="clear" />
-                <h2>Dream</h2>
-                My dream is to live life doing what I love, to improve myself whenever I can and to never stop learning.
             </div>
         );
     }

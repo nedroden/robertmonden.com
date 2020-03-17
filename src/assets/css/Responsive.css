@@ -1,0 +1,30 @@
+@media only screen and (max-width: 900px) {
+    body,
+    wrapper {
+        padding: 0;
+        margin: 0;
+        font-size: 120%;
+    }
+
+    #wrapper {
+        width: 100%;
+        border-radius: 0;
+        border: 0;
+    }
+
+    #content {
+        padding-right: 0;
+        width: 100%;
+    }
+
+    #left-column,
+    #right-column,
+    .skill-list {
+        width: 100%;
+        display: block;
+    }
+
+    #header {
+        height: 150px;
+    }
+}

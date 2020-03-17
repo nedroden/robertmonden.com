@@ -37,31 +37,16 @@ class Skills extends Component {
                     level: 'Intermediate',
                     skills: ['Python', 'Linux', 'Windows', 'MySQL', 'CSS', 'Java FX', 'Git', 'Typescript']
                 },
-                {
-                    level: 'Advanced',
-                    skills: ['Java', 'PHP (Object-Oriented)', 'HTML']
-                }
+                { level: 'Advanced', skills: ['Java', 'PHP (Object-Oriented)', 'HTML'] }
             ]
         },
         {
             label: 'Languages',
             children: [
-                {
-                    level: 'Basic',
-                    skills: ['Russian']
-                },
-                {
-                    level: 'Intermediate',
-                    skills: ['Spanish']
-                },
-                {
-                    level: 'Advanced',
-                    skills: ['English']
-                },
-                {
-                    level: 'Native',
-                    skills: ['Dutch']
-                }
+                { level: 'Basic', skills: ['Russian'] },
+                { level: 'Intermediate', skills: ['Spanish'] },
+                { level: 'Advanced', skills: ['English'] },
+                { level: 'Native', skills: ['Dutch'] }
             ]
         }
     ];

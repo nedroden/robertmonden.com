@@ -5,7 +5,7 @@ class Education extends Component {
         return (
             <div>
                 <h1>Education</h1>
-                <p>Academic years and semesters go downwards, courses go upwards.</p>
+                <p>Academic years and semesters go downwards.</p>
 
                 <h2 className="section_header">
                     HBO-ICT: Software Engineering -{' '}
