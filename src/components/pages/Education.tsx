@@ -357,7 +357,7 @@ class Education extends Component {
                                     Discrete Structures
                                 </a>
                             </strong>{' '}
-                            <em>No description available</em>
+                            Deals with discrete mathematics, like sets, graphs and mathematical induction.
                         </li>
                         <li>
                             <strong>
@@ -369,7 +369,9 @@ class Education extends Component {
                                     Computer Architecture
                                 </a>
                             </strong>{' '}
-                            <em>No description available</em>
+                            Computer Architecture covers six abstract layers in modern computers and discusses the
+                            relation between those layers. The course included a lecture about operating systems and
+                            computer networking.
                         </li>
                     </ul>
 
@@ -394,27 +396,35 @@ class Education extends Component {
 
                     <ul className="curriculum">
                         <li>
-                            <strong>Software Engineering</strong> -
+                            <strong>Project</strong> - Virtual Fitness Coach with a mobile app and a backend with a
+                            microservice architecture.
                         </li>
                         <li>
-                            <strong>Software Architecture</strong> -
+                            <strong>Software Development Lifecycle</strong> - Course about aspects of software
+                            engineering like Software Architecture, Test-Driven Development and security.
                         </li>
                         <li>
-                            <strong>Software Quality</strong> -
+                            <strong>Artificial Intelligence & Machine Learning</strong> - An introduction to problem
+                            solving using artificial intelligence. The machine learning part of the course covers neural
+                            networks, both with and without libraries like Tensorflow and Keras.
                         </li>
                         <li>
-                            <strong>Secure Coding</strong> -
+                            <strong>Practical Research</strong> - Structured literature review regarding the role of
+                            artificial intelligence in breast cancer diagnoses. Included a group assignment that
+                            involved researching the benefit of microservices in the VFC project.
                         </li>
                         <li>
-                            <strong>Test-Driven Development</strong> -
-                        </li>
-                        <li>
-                            <strong>Artificial Intelligence</strong> -
-                        </li>
-                        <li>
-                            <strong>Machine Learning</strong> -
+                            <strong>Enterprise Application Integration</strong> - Deals with the coupling of software
+                            components that cannot directly communicate with each other.
                         </li>
                     </ul>
+
+                    <h5>Semester 2: Graduation project: software engineer</h5>
+                    <span className="description">
+                        I am currently doing my graduation project at RDW Groningen. It involves finding a solution that
+                        would increase the accessibility of RDW&apos;s services. Technologies I have worked with include
+                        C# and Typescript.
+                    </span>
                 </section>
             </div>
         );

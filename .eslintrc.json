@@ -30,7 +30,6 @@
     "rules": {
         "indent": ["error", 4, { "SwitchCase": 1 }],
         "linebreak-style": ["error", "unix"],
-        "semi": ["error", "always"],
         "no-unused-vars": "off",
         "no-empty-function": ["error", { "allow": ["constructors"] }],
         "no-useless-return": "error",
@@ -38,6 +37,7 @@
         "@typescript-eslint/explicit-member-accessibility": "error",
         "@typescript-eslint/adjacent-overload-signatures": "error",
         "@typescript-eslint/no-empty-interface": "error",
+        "@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/no-magic-numbers": "error",
         "@typescript-eslint/promise-function-async": "error",
         "@typescript-eslint/explicit-function-return-type": [

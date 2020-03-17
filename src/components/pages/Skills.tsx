@@ -23,19 +23,19 @@ class Skills extends Component {
                     skills: [
                         'C++',
                         'C',
-                        'Typescript',
                         'MATLAB',
                         'AVR Assembly',
                         'Django',
                         'Angular',
                         'React Native',
                         'Laravel',
-                        'LaTeX'
+                        'LaTeX',
+                        'C#'
                     ]
                 },
                 {
                     level: 'Intermediate',
-                    skills: ['Python', 'Linux', 'Windows', 'MySQL', 'CSS', 'Java FX', 'Git', 'Javascript']
+                    skills: ['Python', 'Linux', 'Windows', 'MySQL', 'CSS', 'Java FX', 'Git', 'Typescript']
                 },
                 {
                     level: 'Advanced',
