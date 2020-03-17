@@ -1,0 +1,213 @@
+#wrapper {
+    width: 80%;
+    margin: auto;
+    background: #fdfdfd;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+}
+
+#content {
+    padding-right: 50px;
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+#left-column,
+#right-column {
+    padding: 20px;
+}
+
+#left-column {
+    padding-top: 15px;
+    border-bottom-left-radius: 8px;
+    width: 15%;
+    display: table-cell;
+    vertical-align: top;
+}
+
+#right-column {
+    margin-top: 20px !important;
+    width: 85%;
+    display: table-cell;
+}
+
+h1 {
+    font-size: 150%;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 140%;
+}
+
+h3 {
+    font-size: 130%;
+}
+
+h4 {
+    font-size: 120%;
+}
+
+h5 {
+    font-size: 110%;
+}
+
+h2 span.location,
+h4 span.location {
+    font-size: 80%;
+}
+
+#footer {
+    font-size: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.head {
+    font-size: 105%;
+    color: #222;
+}
+
+#contact {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.info-left {
+    font-weight: bold;
+    float: left;
+    width: 35%;
+}
+
+.info-right {
+    color: #777;
+    float: right;
+    width: 65%;
+}
+
+.description {
+    font-size: 105%;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+section {
+    margin: 20px 10px 20px 10px;
+}
+
+ul.curriculum strong {
+    margin-right: 10px;
+    font-size: 105%;
+    color: #444;
+}
+
+.section_header,
+.subsection_header {
+    padding: 10px;
+}
+
+.section_header {
+    background-color: #e1e1e1;
+}
+
+#left-column,
+.subsection_header {
+    background-color: #f1f1f1;
+}
+
+.project {
+    margin-bottom: 30px;
+    width: 90%;
+}
+
+.project-technologies {
+    padding: 8px;
+    margin-top: 20px;
+    font-size: 90%;
+    background-color: #f9f9f9;
+}
+
+.valign-top {
+    vertical-align: top;
+}
+
+.skill-header {
+    letter-spacing: -1px;
+    color: #1b64c4;
+    text-transform: uppercase;
+}
+
+.skill-list,
+#github-events {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skill-list li {
+    padding: 7px 0 7px 0;
+    border-bottom: 1px solid #f2f2f2;
+    color: #555;
+}
+
+.skill-list li::first-letter {
+    font-size: 110%;
+}
+
+.portrait {
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 5px 7px 10px #dfdfdf;
+}
+
+#github-events li {
+    font-size: 90%;
+    padding: 7px 0 7px 0;
+    border-bottom: 1px solid #f2f2f2;
+    display: flex;
+}
+
+#github-events img {
+    margin-right: 5px;
+}
+
+#github-events img,
+#github-events span {
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 900px) {
+    body,
+    wrapper {
+        padding: 0;
+        margin: 0;
+        font-size: 120%;
+    }
+
+    #wrapper {
+        width: 100%;
+        border-radius: 0;
+        border: 0;
+    }
+
+    #content {
+        padding-right: 0;
+        width: 100%;
+    }
+
+    #left-column,
+    #right-column,
+    .skill-list {
+        width: 100%;
+        display: block;
+    }
+
+    #header {
+        height: 150px;
+    }
+}

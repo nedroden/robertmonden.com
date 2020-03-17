@@ -1,0 +1,23 @@
+body {
+    font-family: 'Noto Sans', Arial, Helvetica, Verdana;
+    background: #d7d7d9;
+    background: radial-gradient(circle, #f4f4f4, #c6c6c6);
+    padding: 20px;
+    font-size: 90%;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
