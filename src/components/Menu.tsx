@@ -1,7 +1,9 @@
 import React, { Component, ReactNode } from 'react';
+import FontAwesome from 'react-fontawesome';
 import { Link } from 'react-router-dom';
 
 interface MenuItem {
+    icon?: string;
     label?: string;
     href?: string;
     external?: boolean;
@@ -23,25 +25,28 @@ class Menu extends Component<{}, State> {
     public componentDidMount(): void {
         this.setState({
             items: [
-                { label: 'Home', href: '/' },
-                { label: 'Projects', href: '/portfolio' },
-                { label: 'Education', href: '/education' },
-                { label: 'Skills', href: '/skills' },
-                { label: 'Biography', href: '/bio' },
-                { label: 'Contact', href: '/contact' },
+                { label: 'Home', icon: 'home', href: '/' },
+                { label: 'Projects', icon: 'code', href: '/portfolio' },
+                { label: 'Education', icon: 'university', href: '/education' },
+                { label: 'Skills', icon: 'home', href: '/skills' },
+                { label: 'Biography', icon: 'book', href: '/bio' },
+                { label: 'Contact', icon: 'address-book', href: '/contact' },
                 {},
                 {
                     label: 'LinkedIn',
+                    icon: 'linkedin',
                     href: 'https://www.linkedin.com/in/robert-monden/',
                     external: true
                 },
                 {
                     label: 'Github',
+                    icon: 'github',
                     href: 'https://github.com/nedroden',
                     external: true
                 },
                 {
-                    label: 'Download resume',
+                    label: 'Resume',
+                    icon: 'file-text',
                     href: 'https://robertmonden.com/files/resume.pdf',
                     external: true
                 }
@@ -54,12 +59,12 @@ class Menu extends Component<{}, State> {
             <li key={key} className="menu-item">
                 {item.label && !item.external ? (
                     <Link to={`${item.href}`} className="menu-item-url">
-                        {item.label}
+                        <FontAwesome name={item.icon ?? 'question'} className="menu-icon" /> {item.label}
                     </Link>
                 ) : null}
                 {item.label && item.external ? (
                     <a href={item.href} className="menu-item-url" target="_blank" rel="noopener noreferrer">
-                        {item.label}
+                        <FontAwesome name={item.icon ?? 'question'} className="menu-icon" /> {item.label}
                     </a>
                 ) : null}
 

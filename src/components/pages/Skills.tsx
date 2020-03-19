@@ -1,5 +1,7 @@
 import React, { Component, ReactNode } from 'react';
 
+import Heading from '../elements/Heading';
+
 interface SkillLevel {
     level: string;
     skills: string[];
@@ -81,7 +83,7 @@ class Skills extends Component {
     public render(): ReactNode {
         return (
             <div>
-                <h1>Skills and technologies</h1>
+                <Heading text="Skills and technologies" />
                 {this._skills.map((skillset: Skillset, index: number) => this.renderSkillset(skillset, index))}
             </div>
         );

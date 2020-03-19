@@ -2,6 +2,7 @@ import React, { Component, ReactNode } from 'react';
 
 import PortfolioProjects from '../../data/Projects.json';
 import Project from '../../models/Project';
+import Heading from '../elements/Heading';
 
 interface State {
     projects: Project[];
@@ -70,7 +71,7 @@ class Projects extends Component<{}, State> {
     public render(): ReactNode {
         return (
             <div>
-                <h1>Projects</h1>
+                <Heading text="Projects" />
                 {this.state.projects.map((project: Project) => this.renderProject(project))}
             </div>
         );

@@ -4,9 +4,12 @@
             "image": "portfolio_robertmonden.png",
             "title": "Personal portfolio website",
             "description": [
-                "My personal portfolio website is the website you are currently visiting. Due to a positive experience with Angular, I decided to rewrite my existing portfolio website (which left pretty much everything to be desired) using Angular 6."
+                "My personal portfolio website is the website you are currently visiting. Due to a positive experience with Angular, I decided to rewrite my existing portfolio website (which left pretty much everything to be desired) using Angular 6.",
+
+                "In March 2020, the website was ported to React."
             ],
-            "skills": ["Typescript", "Angular 6", "HTML", "CSS"],
+            "github": "nedroden/robertmonden.com",
+            "skills": ["Typescript", "React", "HTML", "CSS"],
             "dates": ["September 2018", "present"]
         },
         {

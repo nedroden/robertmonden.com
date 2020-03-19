@@ -15,9 +15,18 @@
     text-decoration: none;
 }
 
+.menu-item-url:hover {
+    text-decoration: none;
+}
+
 .menu-item-hr {
     margin-bottom: 5px;
     margin-top: 5px;
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.menu-icon {
+    color: steelblue;
+    width: 20px;
 }

@@ -1,12 +1,13 @@
 import React, { Component, ReactNode } from 'react';
 
 import photo from '../../assets/images/biography.jpg';
+import Heading from '../elements/Heading';
 
 class Biography extends Component {
     public render(): ReactNode {
         return (
             <div>
-                <h1>Biography</h1>
+                <Heading text="Biography" />
                 <div className="float-left col-2">
                     <img src={photo} alt="August 2019, Kazan, Russia." className="portrait" />
                 </div>
@@ -37,8 +38,8 @@ class Biography extends Component {
                         freelance PHP developer after graduating. In March 2016, however, I was looking through some
                         websites and I started considering to keep studying. Although the plan was never to start with
                         an HBO study, the idea of studying IT at the Hanze University of Applied Sciences was quite
-                        appealing. After completing the math entrance exam required for MBO4 students, I knew
-                        immediately I made the right choice.
+                        appealing. After completing the math entrance exam required for MBO4 students, I knew I made the
+                        right choice.
                     </p>
                 </div>
                 <br className="clear" />

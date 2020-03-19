@@ -1,5 +1,7 @@
 import React, { Component, ReactNode } from 'react';
 
+import Heading from '../elements/Heading';
+
 interface Detail {
     label: string;
     value: string;
@@ -37,7 +39,7 @@ class Contact extends Component {
     public render(): ReactNode {
         return (
             <div>
-                <h1>Robert Monden</h1>
+                <Heading text="Robert Monden" />
                 <div id="contact">
                     {this._details.map((detail: Detail, index: number) => this.renderDetail(detail, index))}
                 </div>

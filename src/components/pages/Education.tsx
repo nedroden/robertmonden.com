@@ -1,10 +1,12 @@
 import React, { Component, ReactNode } from 'react';
 
+import Heading from '../elements/Heading';
+
 class Education extends Component {
     public render(): ReactNode {
         return (
             <div>
-                <h1>Education</h1>
+                <Heading text="Education" />
                 <p>Academic years and semesters go downwards.</p>
 
                 <h2 className="section_header">
