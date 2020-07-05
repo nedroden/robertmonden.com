@@ -1,5 +1,5 @@
 #wrapper {
-    width: 80%;
+    width: 90%;
     margin: auto;
     background: #fdfdfd;
     border-color: #ccc;
@@ -139,7 +139,7 @@ ul.curriculum strong {
 
 .skill-header {
     letter-spacing: -1px;
-    color: #1b64c4;
+    color: #62a35a;
     text-transform: uppercase;
 }
 
@@ -179,35 +179,4 @@ ul.curriculum strong {
 #github-events img,
 #github-events span {
     vertical-align: middle;
-}
-
-@media only screen and (max-width: 900px) {
-    body,
-    wrapper {
-        padding: 0;
-        margin: 0;
-        font-size: 120%;
-    }
-
-    #wrapper {
-        width: 100%;
-        border-radius: 0;
-        border: 0;
-    }
-
-    #content {
-        padding-right: 0;
-        width: 100%;
-    }
-
-    #left-column,
-    #right-column,
-    .skill-list {
-        width: 100%;
-        display: block;
-    }
-
-    #header {
-        height: 150px;
-    }
 }

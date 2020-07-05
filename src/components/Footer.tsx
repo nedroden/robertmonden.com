@@ -6,7 +6,7 @@ class Footer extends Component {
             <div id="footer">
                 &copy; 2018-2020, Robert Monden
                 <br />
-                Header image by <em>Yousef Espanioly</em> on Unsplash
+                Header image by <em>Muhammad Fahad Khan</em> on Unsplash
             </div>
         );
     }

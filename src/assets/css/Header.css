@@ -4,8 +4,6 @@
     background-position: 0% 68%;
     padding: 15px;
     font-size: 110%;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
 }
 
 #topbar-url {
@@ -17,7 +15,7 @@
     padding: 100px;
     color: #fff;
     font-size: 200%;
-    background: url('../images/header.jpg') repeat-x;
+    background: url('../images/header_alt.jpg') repeat-x;
     background-size: 100% 100%;
     opacity: 0.85;
     text-shadow: 2px 2px #333333;

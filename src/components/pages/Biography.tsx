@@ -41,6 +41,11 @@ class Biography extends Component {
                         appealing. After completing the math entrance exam required for MBO4 students, I knew I made the
                         right choice.
                     </p>
+
+                    <p>
+                        In June 2020 I graduated from Hanze, having completed my graduation project at the RDW in
+                        Groningen.
+                    </p>
                 </div>
                 <br className="clear" />
             </div>

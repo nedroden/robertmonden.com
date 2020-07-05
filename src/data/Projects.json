@@ -4,7 +4,7 @@
             "image": "portfolio_robertmonden.png",
             "title": "Personal portfolio website",
             "description": [
-                "My personal portfolio website is the website you are currently visiting. Due to a positive experience with Angular, I decided to rewrite my existing portfolio website (which left pretty much everything to be desired) using Angular 6.",
+                "My personal portfolio website is the website you are currently visiting. Due to positive experiences with Angular, I decided to rewrite my existing portfolio website (which left pretty much everything to be desired) using Angular 6.",
 
                 "In March 2020, the website was ported to React."
             ],
@@ -13,12 +13,23 @@
             "dates": ["September 2018", "present"]
         },
         {
+            "image": "portfolio_atlas.png",
+            "title": "Climatics app",
+            "description": [
+                "The Climatics App is a free mobile client for Climatics, a platform developed by Advanced Climate Systems. The app allows building managers to perform common actions, such as changing the temperature in a room, more efficiently.",
+
+                "Both iOS and Android are supported, with subtle differences between the two. One of the goals was to provide a near-native experience for users on both platforms. Customers of ACS can download the app through the App and Play Stores."
+            ],
+            "skills": ["Typescript", "React Native", "Kotlin", "iOS", "Android"],
+            "dates": ["February 2019", "August 2019"]
+        },
+        {
             "image": "portfolio_draiwiki.png",
             "title": "DraiWiki - open source wiki software",
             "description": [
                 "DraiWiki is a free and open source wiki software written in PHP 7.2. It was designed to be secure, customizable and easy to use. The software makes extensive use of other open source packages.",
 
-                "Authorization is implemented using a permission system, in which all users can be assigned one or more permission profiles, which are determined by the groups the user is a member of.",
+                "Authorization is implemented using a permission system, which looks at the groups the user is a member of.",
 
                 "As customization was a high priority, localization and styling is very easy. The software supports multiple languages and it is very easy to switch between them."
             ],
@@ -34,7 +45,7 @@
 
                 "With HiLang, courses can be created by so-called \"distributors\" and can be enrolled to by other users. Courses consist of vocabulary lists and grammar, both of which can be practiced through exercises."
             ],
-            "github": "RockingStars/Enjun",
+            "github": "Team-Aeros",
             "skills": ["Python", "Django", "Angular", "REST", "React Native", "App development"],
             "dates": ["May-June 2018"]
         },

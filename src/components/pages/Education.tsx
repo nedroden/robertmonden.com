@@ -7,7 +7,15 @@ class Education extends Component {
         return (
             <div>
                 <Heading text="Education" />
-                <p>Academic years and semesters go downwards.</p>
+                <p>Academic years and semesters go downwards, studies go upwards.</p>
+
+                <h2 className="section_header">
+                    MSc. Computing Science - <span className="location">University of Groningen</span>
+                </h2>
+                <h4 className="subsection_header">
+                    First academic year - <span className="location">2020-2021</span>
+                </h4>
+                <section>Not started yet.</section>
 
                 <h2 className="section_header">
                     HBO-ICT: Software Engineering -{' '}
@@ -37,15 +45,14 @@ class Education extends Component {
                             in PHP.
                         </li>
                         <li>
-                            <strong>Intercultural Compentencies</strong> Elementary grammar and writing an information
-                            document about the (academic) culture of Pune, India.
+                            <strong>Intercultural Compentencies</strong> Elementary grammar. A few other students and I
+                            wrote an information document about the (academic) culture of Pune, India.
                         </li>
                         <li>
                             <strong>Communication skills</strong> Developing presentational skills (in Dutch).
                         </li>
                         <li>
-                            <strong>Project management 1</strong> Introduction to Scrum and why it is better than
-                            methods like Waterfall.
+                            <strong>Project management 1</strong> Introduction to Scrum.
                         </li>
                         <li>
                             <strong>Project*</strong> Developing a Colloquium app in Laravel with other 18 students.
@@ -61,14 +68,14 @@ class Education extends Component {
 
                     <ul className="curriculum">
                         <li>
-                            <strong>Configuration Management</strong> Version control in Git.
+                            <strong>Configuration Management</strong> Version control using Git.
                         </li>
                         <li>
                             <strong>Human-Computer Interaction</strong> An introduction to designing easy-to-use systems
                             with intuitive controls.
                         </li>
                         <li>
-                            <strong>Object-Oriented Programming in Java</strong> Basic object-oriented programming using
+                            <strong>Object-Oriented Programming in Java</strong> Basic object-oriented programming in
                             Java.
                         </li>
                         <li>
@@ -109,7 +116,7 @@ class Education extends Component {
                             <strong>IT Service Management</strong> An introduction to management in IT environments.
                         </li>
                         <li>
-                            <strong>Intercultural Competencies</strong> Developing email-writing and interview skills in
+                            <strong>Intercultural Competencies</strong> Developing email writing and interview skills in
                             English.
                         </li>
                         <li>
@@ -385,7 +392,7 @@ class Education extends Component {
                 </section>
 
                 <h4 className="subsection_header">
-                    Fourth academic year - <span className="location">2019-ongoing</span>
+                    Fourth academic year - <span className="location">2019-2020</span>
                 </h4>
                 <section>
                     <h5>Semester 1</h5>
@@ -398,7 +405,7 @@ class Education extends Component {
 
                     <ul className="curriculum">
                         <li>
-                            <strong>Project</strong> - Virtual Fitness Coach with a mobile app and a backend with a
+                            <strong>Project</strong> - Virtual Fitness Coach with a mobile app and a backend based on a
                             microservice architecture.
                         </li>
                         <li>
@@ -423,9 +430,9 @@ class Education extends Component {
 
                     <h5>Semester 2: Graduation project: software engineer</h5>
                     <span className="description">
-                        I am currently doing my graduation project at RDW Groningen. It involves finding a solution that
-                        would increase the accessibility of RDW&apos;s services. Technologies I have worked with include
-                        C# and Typescript.
+                        In the second semester I worked on my graduation project at the RDW in Groningen. The project
+                        involved finding a way to perform automatic accessibility checks on web applications. On June
+                        25th, 2020, the project was graded with an 8.5.
                     </span>
                 </section>
             </div>

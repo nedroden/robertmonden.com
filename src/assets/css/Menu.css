@@ -10,6 +10,12 @@
     letter-spacing: 1px;
 }
 
+.menu-item a {
+    color: #555;
+    font-family: 'Noto Sans';
+    font-size: 95%;
+}
+
 .menu-item-url {
     color: #444f46;
     text-decoration: none;
@@ -27,6 +33,6 @@
 }
 
 .menu-icon {
-    color: steelblue;
+    color: #62a35a;
     width: 20px;
 }

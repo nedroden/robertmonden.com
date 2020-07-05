@@ -28,7 +28,7 @@ class Menu extends Component<{}, State> {
                 { label: 'Home', icon: 'home', href: '/' },
                 { label: 'Projects', icon: 'code', href: '/portfolio' },
                 { label: 'Education', icon: 'university', href: '/education' },
-                { label: 'Skills', icon: 'home', href: '/skills' },
+                { label: 'Skills', icon: 'level-up', href: '/skills' },
                 { label: 'Biography', icon: 'book', href: '/bio' },
                 { label: 'Contact', icon: 'address-book', href: '/contact' },
                 {},

@@ -57,7 +57,7 @@ class Projects extends Component<{}, State> {
                             ) : (
                                 'Repository unavailable'
                             )}
-                        </span>
+                        </span>{' '}
                         | <strong>Skills:</strong> {project.skills.join(', ')} | <strong>Date:</strong>{' '}
                         {project.dates.join(' - ')}
                     </div>
