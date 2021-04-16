@@ -13,13 +13,13 @@ class Homepage extends Component {
                 <h1 id="hello">
                     I am <span id="hello-name">Robert.</span>
                 </h1>
-                <h2 id="position">Software Engineering Student</h2>
+                <h2 id="position">MSc Computing Science Student</h2>
 
                 <Line />
 
                 <p className="head">
-                    Howdy! I am Robert Monden, a {birthdate.diff('1996-09-08', 'years', false)}-year old student of
-                    HBO-ICT Software Engineering with a passion for learning, programming, languages and movies.
+                    Howdy! I am Robert Monden, a {birthdate.diff('1996-09-08', 'years', false)}-year old master's
+                    student of Computing Science with a passion for learning, programming, languages and movies.
                 </p>
 
                 <Line />

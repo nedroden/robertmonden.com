@@ -31,4 +31,18 @@
 .blog-title {
     color: #62a35a;
     font-weight: normal;
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.blog-post .user-info .avatar {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.blog-post .user-info {
+    margin: 0 0 15px 0;
 }

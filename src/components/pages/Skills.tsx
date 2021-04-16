@@ -31,13 +31,12 @@ class Skills extends Component {
                         'Angular',
                         'React Native',
                         'Laravel',
-                        'LaTeX',
-                        'C#'
+                        'LaTeX'
                     ]
                 },
                 {
                     level: 'Intermediate',
-                    skills: ['Python', 'Linux', 'Windows', 'MySQL', 'CSS', 'Java FX', 'Git', 'Typescript']
+                    skills: ['Python', 'Linux', 'Windows', 'MySQL', 'CSS', 'Java FX', 'Git', 'Typescript', 'C#']
                 },
                 { level: 'Advanced', skills: ['Java', 'PHP (Object-Oriented)', 'HTML'] }
             ]

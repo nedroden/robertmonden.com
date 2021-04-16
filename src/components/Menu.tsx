@@ -33,6 +33,13 @@ class Menu extends Component<{}, State> {
                 { label: 'Contact', icon: 'address-book', href: '/contact' },
                 {},
                 {
+                    label: 'Blog',
+                    icon: 'pencil',
+                    href: 'https://robertmonden.com/_blog',
+                    external: true
+                },
+                {},
+                {
                     label: 'LinkedIn',
                     icon: 'linkedin',
                     href: 'https://www.linkedin.com/in/robert-monden/',

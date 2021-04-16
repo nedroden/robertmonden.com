@@ -15,7 +15,142 @@ class Education extends Component {
                 <h4 className="subsection_header">
                     First academic year - <span className="location">2020-2021</span>
                 </h4>
-                <section>Not started yet.</section>
+                <section>
+                    <h5>Semester 1a</h5>
+                    <ul className="curriculum">
+                        <li>
+                            <strong>
+                                <a
+                                    href="https://www.rug.nl/ocasys/fwn/vak/show?code=WMPH007-05"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Computational Physics
+                                </a>
+                            </strong>{' '}
+                            Solving essential physics problems using Python. The final assignment involved a molecular
+                            dynamics simulation.
+                        </li>
+                        <li>
+                            <strong>
+                                <a
+                                    href="https://www.rug.nl/ocasys/rug/vak/show?code=WMCS004-05"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Software Architecture
+                                </a>
+                            </strong>{' '}
+                            Course about architectural concepts within software development.
+                        </li>
+                        <li>
+                            <strong>
+                                <a
+                                    href="https://www.rug.nl/ocasys/rug/vak/show?code=WMCS005-05"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Web and Cloud Computing
+                                </a>
+                            </strong>{' '}
+                            Concerns the development of highly scalable distributed applications, with a particular
+                            focus on web applications.
+                        </li>
+                    </ul>
+
+                    <h5>Semester 1b</h5>
+                    <ul className="curriculum">
+                        <li>
+                            <strong>
+                                <a
+                                    href="https://www.rug.nl/ocasys/rug/vak/show?code=WMCS009-05"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Information Systems
+                                </a>
+                            </strong>{' '}
+                            Concerns various types of information systems, such as health care information systems,
+                            relational databases, blockchain and IOT.
+                        </li>
+                        <li>
+                            <strong>
+                                <a
+                                    href="https://www.rug.nl/ocasys/rug/vak/show?code=WMCS013-05"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Software Maintenance and Evolution
+                                </a>
+                            </strong>{' '}
+                            Concerns the evolution of large-scale software products and the challenges associated with
+                            maintaining such software products.
+                        </li>
+                        <li>
+                            <strong>
+                                <a
+                                    href="https://www.rug.nl/ocasys/rug/vak/show?code=WMCS014-05"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Software Patterns
+                                </a>
+                            </strong>{' '}
+                            Concerns patterns used in software development.
+                        </li>
+                    </ul>
+
+                    <h5>Semester 2a</h5>
+                    <ul className="curriculum">
+                        <li>
+                            <strong>
+                                <a
+                                    href="https://www.rug.nl/ocasys/rug/vak/show?code=WMCS016-05"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Formal Modeling of Communicating Systems
+                                </a>
+                            </strong>{' '}
+                            Course about how communicating systems can be formally described and how they can be
+                            compared to specifications.
+                        </li>
+                        <li>
+                            <strong>
+                                <a
+                                    href="https://www.rug.nl/ocasys/rug/vak/show?code=WMCS017-05"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Scalable Computing
+                                </a>
+                            </strong>{' '}
+                            Concerns the development of programs which have to deal with large amounts of data through,
+                            inter alia, GPU computing.
+                        </li>
+                        <li>
+                            <strong>
+                                <a
+                                    href="https://www.rug.nl/ocasys/rug/vak/show?code=WMCS019-05"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Student Colloquium
+                                </a>
+                            </strong>{' '}
+                            Simulation of a scientific conference, where students have to write a paper, review papers
+                            from peers and give a short presentation about the topic they have chosen. My lab partner
+                            and I wrote a paper on the use of facial expression recognition systems on athletes.
+                        </li>
+                    </ul>
+
+                    <h5>Semester 2b: Internship</h5>
+                    <span className="description">
+                        In the second half of the second semester I did another internship at the RDW. During this
+                        internship I worked closely with other team members on rebuilding two legacy applications from
+                        the ground up in .NET Core.
+                    </span>
+                </section>
 
                 <h2 className="section_header">
                     HBO-ICT: Software Engineering -{' '}

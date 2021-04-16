@@ -2,7 +2,9 @@ import axios, { AxiosResponse } from 'axios';
 import moment, { Moment } from 'moment';
 import React, { Component, ReactNode } from 'react';
 
+import photo from '../../assets/images/biography.jpg';
 import Post from '../../models/Post';
+import Line from '../elements/Line';
 
 type Props = {};
 
@@ -47,6 +49,17 @@ export default class Blog extends Component<Props, State> {
                 <a href={post.link}>
                     <h1 className="blog-title" dangerouslySetInnerHTML={{ __html: post.title || '' }}></h1>
                 </a>
+
+                <div className="user-info">
+                    <img className="avatar" src={photo} alt="Avatar" />
+                    Posted by{' '}
+                    <a href="https://robertmonden.com/_blog/author/robert/" target="_blank" rel="noopener noreferrer">
+                        Robert
+                    </a>{' '}
+                    on {date.format('MMMM Do YYYY, h:mm:ss a')}
+                </div>
+
+                <Line />
 
                 <div dangerouslySetInnerHTML={{ __html: post.content || '' }}></div>
 
